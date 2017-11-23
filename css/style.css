@@ -1,0 +1,329 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	width: 100%;
+	height: 100%;
+}
+
+/* SECTION 1 */
+
+#nav {
+	background: #e5ced0;
+	height: 560px;
+}
+
+h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	float: left;
+	color: #213139;
+	font-size: 100px;
+	margin-left: 15%;
+	margin-top: 30%;
+}
+
+@media only screen and (max-width: 1567px) {
+	h1 {
+		font-size: 75px;
+	}
+}
+
+@media only screen and (max-width: 768px) {
+	h1 {
+		display: none;
+	}
+
+	.logo {
+		width: 100%;
+		margin: 0 auto;
+
+	}
+}
+
+.logo {
+	max-width: 100%;
+	margin-top: 25%;
+	margin-left: 15%;
+
+}
+
+#section1 {
+	background: #e5ced0;
+}
+
+/* SECTION 2 */
+
+#section2 {
+	background: #d4a9ab;
+}
+
+h2 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #213139;
+	font-size: 60px;
+	text-align: center;
+	margin-top: 5%;
+	margin-bottom: 5%;
+	
+}
+
+p {
+	font-family: 'Karla', sans-serif;
+	text-align: center;
+	color: #213139;
+	font-size: 27px;
+	line-height: 45px;
+	padding: 65px;
+	margin-top: 20%;
+
+}
+
+@media only screen and (max-width: 768px) {
+	p {
+		padding: 10px;
+		font-size: 23px;
+	}
+
+	.about-img {
+		max-width: 100%;
+	}
+}
+
+.about {
+	float: left;
+	width: 50%;
+}
+
+.about-img {
+	float: right;
+	width: 50%;
+}
+
+.about-img img {
+	max-width: 100%;
+	width: 100%;
+	
+}
+
+/*.layer {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(37, 92, 110, 0.35);
+	position: relative;
+	z-index: 99;
+}*/
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* SECTION 3 */
+
+#section3 {
+    background: #5a707f;
+}
+
+h4 {
+	color: #213139;
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 50px;
+	margin-top: 2%;
+	
+}
+
+/* SECTION 4 */
+
+#section4 {
+    background: #e3e3e3;
+}
+
+#section5 {
+ 	background: #e5ced0;
+}
+
+.six.columns {
+	display: block;
+	margin: 0 auto;
+}
+
+form {
+	display: block;
+	margin: 0 auto;
+	float: none;
+	padding: 35px;
+	height: 550px;
+}
+
+label {
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	font-size: 25px;
+	color: #213139;
+}
+
+input {
+	width: 50%;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+input.msg {
+	height: 145px;
+}
+
+input.submit {
+	background-color: #213139;
+	color: white;
+	display: block;
+	margin: 0 auto;
+	text-align: center;
+	width: 10%;
+	height: 50px;
+	font-size: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+	input {
+		height: 70px;
+		w
+	}
+
+
+}
+
+/* SECTION 5 */
+
+footer.twelve.columns {
+	background-color: #213139;
+	height: 150px;
+}
+
+h3 {
+	color: #e5ced0;
+	text-align: center;
+	font-family: 'Julius Sans One', sans-serif;
+	font-size: 28px;
+	padding: 0px;
+	margin-top: 2%;
+	margin-bottom: 0px;
+}
+
+.social-media {
+	text-align: center;
+	font-size: 28px;
+	color: #e5ced0;
+}
+
+i {
+	padding-right: 10px;
+}
+
+.section .slide article {
+	text-align: center;
+	position: relative;
+	z-index: 1000;
+	padding-bottom: 2%;
+	font-family: 'Julius Sans One', sans-serif;
+	color: #213139;
+	font-size: 20px;
+	top: 80px;
+}
+
+.section .slide .content {
+	position: relative;
+	width:700px;
+	height:700px;
+	margin: 0 auto;
+}
+.section .slide .content img {
+	position: relative;
+	display: block;
+	width: 500px;
+	z-index: 555;
+	margin: 0 auto;
+	top: 80px;
+}
+.section .slide .content .circle {
+	position: absolute;
+	top: -70px;
+	background: white;
+	width:700px;
+	height:700px;
+	padding:50px;
+	margin: 0 auto;
+	border-radius: 50%;
+	z-index: 554;
+
+}
+.section .slide .content .btn {
+	font-family: 'Julius Sans One', sans-serif;
+	position: relative;
+	top: 120px;
+	z-index: 556;
+	text-align: center;
+	color: #213139;
+	display: block;
+	font-size: 20px;
+	margin: 0 auto;
+}
+
+a.btn-trigger: hover {
+color: #5a707f;
+}
+
+.popup-content {
+	display: none;
+}
+
+article.content-article {
+	color: #213139;
+	font-family: 'Karla', sans-serif;
+	font-size: 25px;
+	text-align: center;
+
+}
+
+a {
+	font-family: 'Karla', sans-serif;
+	font-size: 25px;
+	color: #e5ced0;
+	text-align: center;
+	display: block;
+	padding-top: 10px;
+	
+
+}
+
+.popup-content {
+	text-align: center;
+}
+
+.about h2 {
+	font-size: 70px;
+	margin-top: 10%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

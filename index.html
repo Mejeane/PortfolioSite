@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+<!-- Basic Page Needs 
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<meta charset="utf-8">
+<meta http-equiv="x-ua-compatible" content="ie=edge">
+<meta description="Portfolio Site">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="keywords" content="morphing, device, css3, transition, slideshow, autoplay, portfolio, showcase, concept" />
+<meta name="description" content="A simple content slideshow with circular elements and a bouncy navigation effect." />
+<meta name="keywords" content="slideshow, dynamic.js, elastic, circle, template, web design" />
+
+
+
+
+<title>My portfolio</title>
+
+<!-- STYLESHEETS 
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link rel="stylesheet" type="text/css" href="css/normalize.css"><!-- Skeleton -->
+<link rel="stylesheet" type="text/css" href="css/skeleton.css"><!-- Skeleton -->
+<link rel="stylesheet" type="text/css" href="css/morphing/default.css" /><!-- Morphing -->
+<link rel="stylesheet" type="text/css" href="css/morphing/component.css" /><!-- Morphing -->
+<link rel="stylesheet" type="text/css" href="css/jquery.fullPage.css"><!-- Fullpage -->
+<link rel="stylesheet" href="css/tingle/tingle.min.css">  <!-- Modal -->
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<!-- FONTS 
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Karla" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+<!-- JS  
+–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+<script src="js/morphing/modernizr.custom.js"></script><!-- Morphing -->
+
+
+
+
+</head>
+
+<body>
+
+<div id="fullpage"><!-- Fullpage starts-->
+
+<div class="section" id="section1"><!-- section1 -->
+
+			<div class="six columns">
+				<h1>Hello...<br></br>I am Méjeane</h1>
+			</div>
+
+			<div class="six columns">
+				<img class="logo" src="img/my_logo.png">
+			</div>
+
+</div><!-- /section1 -->
+
+
+
+<div class="section" id="section2"><!-- section2 -->
+	    	<div class="twelve columns">
+	    		<div class="about">
+		    		<h2>ABOUT ME</h2>
+		    		<p>
+			    		Hello! My name is Méjeane Simoné Claassen. I believe I was created to create. I started with Interior Decorating al the way through to being a Graphic and now, Web designer. I love working with colour and I use it as a skill to make my work pop! I enjoy the developing side of a website, but I focus more on the design. I am always ready for a challenge, which I feel is necessary in this industry. Design aside, I am loyal, hilarious and absolutely insist on enjoying life!
+		    		</p>
+		    	</div>
+		    	<div class="about-img">
+		    		<!-- <div class="layer"></div> -->
+		    		<img src="img/me.jpg">
+		    	</div>
+	    	</div>
+	    <div class="clearfix"></div>
+</div><!-- /section2 -->
+
+
+<div class="section" id="section3"><!-- section3 -->
+
+	<div class="container demo-1">
+		<!-- a low-tech hack for pre-loading the images -->
+		<div class="preload" style="overflow: hidden; width: 0px; height: 0px">
+			<img src="images/site1.png"/>
+			<img src="images/site2.jpg"/>
+			<img src="images/site3.jpg"/>
+			<img src="images/site3r.jpg"/>
+			<img src="images/site4.jpg"/>
+		</div>
+			
+		<div class="main clearfix">
+			<div class="md-slider">
+				<div class="md-device-wrapper">
+					<div class="md-device md-device-1">
+						<a href="#"><img src="images/site1.jpg" /></a>
+						<div class="md-border-element"></div>
+						<div class="md-base-element"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+			
+	</div><!-- /container --> 
+
+	<h4>I was created to create</h4>
+		
+</div><!-- /section3 -->
+
+<div class="section" id="section4"><!-- section4 -->
+
+	<div class="slide" data-anchor="slide1">
+		<h2>Some of my Work</h2>
+		<article>Frida Kahlo Site</article>
+		<div class="content">
+			<img src="img/1.png" />
+			<a class="btn trigger" href="#">View More</a>
+			<div class="circle"></div>
+			<div class="popup-content">
+				<img src="img/fridamock.jpg">
+			<article class="content-article">I had to setup a wordpress website & database, by developing a custom wordpress theme. This site was a portfolio & marketing site for any international artist. I chose Frida Kahlo. She inspires me. This was my favourite site to design, because of all her artwork, obviously and playing with bold and vibrant colours. </article>
+			<a href="https://mejoen.co.za">View Website</a>	
+			</div>
+		</div>
+	</div>
+
+	<div class="slide" data-anchor="slide2">
+		<h2>Some of my Work</h2>
+		<article>Responsive Site</article>
+		<div class="content">
+			<img src="img/2.png" />
+			<a class="btn trigger" href="#">View More</a>
+
+			<div class="popup-content">
+			<img src="img/recovermock.jpg">
+		    <article class="content-article">I had to design and develop a responsive website. It had to respond across mobile, tablet and desktop. I chose a company for whom I designed a brand identity, so this project was super fun and also personal. </article>
+		    <a href="https://mejeane.github.io/responsivesite/index.html">View Website</a>	
+		    </div>
+			<div class="circle"></div>
+		</div>
+	</div>
+	
+
+	<div class="slide" data-anchor="slide3">
+		<h2>Some of my Work</h2>
+		<article>Travel Site</article>
+		<div class="content">
+			<img src="img/3.png" />
+			<a class="btn trigger" href="#">View More</a>
+
+			<div class="popup-content">
+				<img src="img/travelmock.jpg">
+		    <article class="content-article">This was my very first site that I had to code so it was quite an experience. I had to build a one-page landing site. I decided on a travel website. I used teal and orange colours as a contrast, which also creates a fun user experience when the user is busy browsing for holiday spots.</article>
+		    <a href="https://mejeane.github.io/FinalFinaltravelsite/index.html">View Website</a>	
+		    </div>
+			<div class="circle"></div>
+		</div>		
+	</div>
+
+	<div class="slide" data-anchor="slide4">
+		<h2>Some of my Work</h2>
+		<article>Claire's Website Redesign</article>
+		<div class="content">
+			<img src="img/4.png" />
+			<a class="btn trigger" href="#">View More</a>
+
+			<div class="popup-content">
+				<img src="img/clairesmock.jpg">
+			<article class="content-article">I had to choose a website that I wanted to recreate. I decided on Claire’s. We had to maintain their brand identity, so I made changes regarding the overall layout, images used, fonts and I added a contact page, which they did not have. By surfing websites, you try to see your site through a user’s eyes and that is what I learned with this project.</article>
+			<a href="https://mejeane.github.io/FinalFinaltravelsite/index.html">View Website</a>
+            </div>
+
+			<div class="circle"></div>
+		</div>
+	</div>
+		
+
+	<div class="slide" data-anchor="slide5">
+		<h2>Some of my Work</h2>
+		<article>Interactive Site</article>
+		<div class="content">
+			<img src="img/5.png" />
+			<a class="btn trigger" href="#">View More</a>
+
+			<div class="popup-content">
+				<img src="img/promomock.jpg">
+			<article class="content-article">For this site I had to come up with an experimental web UI. I created a promotional event site. The event is called “Gay Pride Parade”, which takes place in Amsterdam every year. I played with a lot of colours, because I wanted to incorporate the Gay Pride flag. I used a lot of plug-ins to create a proper interactive user experience.</article>
+            </div>
+
+			<div class="circle"></div>
+		</div>
+	</div>
+
+	<div class="slide" data-anchor="slide6">
+		<h2>Some of my Work</h2>
+		<article>Charly's Bakery Website Redesign</article>
+		<div class="content">
+			<img src="img/6.png" />
+			<a class="btn trigger" href="#">View More</a>
+
+			<div class="popup-content">
+				<img src="img/charlymock.jpg">
+			<article class="content-article">For this website I had to choose a website of my choice that I wanted to recreate. I chose Charly’s Bakery for the obvious reason, I love cakes! So I scrolled down bakery sites and Charly's Bakery was a good choice because I did not agree with how they played with their colours and layout. I decided on a new colour theme and I had a lot of fun recreating an existing site.</article>
+            </div>
+
+			<div class="circle"></div>
+		</div>
+	</div>				
+
+</div><!-- /section4 -->
+
+
+
+<div class="section" id="section5"><!-- section5 -->
+
+	<h2>Let's get in touch</h2>
+
+<div class="twelve columns">
+		<form action="https://formspree.io/mejoenclaassen@yahoo.com"
+      		method="POST">
+      		<label>Your Name</label>
+    		<input type="text" name="name">
+    		<label>Your Email</label>
+    		<input type="email" name="replyto">
+    		<label>Your Message</label>
+			<input class="msg" type="message" name="Your Message">
+    		<input class="submit" type="submit" value="Send">
+		</form>
+</div>
+	
+</div><!-- /section5 -->
+
+<div class="section fp-auto-height" id="section6"><!-- section6 -->
+
+
+		<footer class="twelve columns">
+			<h3>Let's be friends</h3>
+			<div class="social-media">
+			<i class="fa fa-instagram" aria-hidden="true"></i>
+			<i class="fa fa-facebook-square" aria-hidden="true"></i>
+			<i class="fa fa-whatsapp" aria-hidden="true"></i>
+			</div>
+		</footer>
+
+</div><!-- /section6 -->
+
+
+
+</div><!-- /Fullpage --> 
+
+
+
+<!-- JS -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.fullPage.js"></script>
+
+
+<script src="js/morphing/morphingdevice.js"></script><!-- Morphing -->
+		<script>
+			var el = document.querySelector( '.md-slider' ),
+				settings = {
+					autoplay : true,
+					interval : 3000,
+					devices : [ 
+						{ cName : 'md-device-1', canRotate : false, imgsrc : 'images/site1.jpg' },
+						{ cName : 'md-device-2', canRotate : false, imgsrc : 'images/site2.jpg' },
+						{ cName : 'md-device-3', canRotate : true, imgsrc : 'images/site3.jpg', rotatedsrc : 'images/site3r.jpg' },
+						{ cName : 'md-device-4', canRotate : true, imgsrc : 'images/site4.jpg', rotatedsrc : 'images/site4r.jpg' }
+					]
+				},
+				devicesTotal = settings.devices.length,
+				ds = MorphingDevice( el, settings );
+
+			// create navigation triggers
+			var nav = document.createElement( 'nav' );
+			for( var i = 0; i < devicesTotal; ++i ) {
+
+				var trigger = document.createElement( 'a' );
+				trigger.className = i === 0 ? 'md-current' : '';
+				trigger.setAttribute( 'href', '#' );
+				trigger.setAttribute( 'pos', i );
+				trigger.onclick = function( event ) {
+
+					ds.stopSlideshow();
+					var pos = Number( event.target.getAttribute( 'pos' ) );
+					if( pos === ds.getCurrent() ) {
+						return false;
+					}
+					ds.updateCurrentTrigger( event.target );
+					ds.setCurrent( pos );
+					ds.changeDevice();
+					return false;
+
+				};
+				nav.appendChild( trigger );
+
+			}
+			el.appendChild( nav );
+
+			if( settings.autoplay ) {
+				ds.startSlideshow();
+			}
+</script><!-- Morphing -->
+
+<script src="js/tingle/tingle.min.js"></script> <!-- Modal -->
+
+<script type="text/javascript" src="js/main.js"></script>
+
+</body>
+</html>
